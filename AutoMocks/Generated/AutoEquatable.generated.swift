@@ -27,6 +27,7 @@ fileprivate func compareArrays<T>(lhs: [T], rhs: [T], compare: (_ lhs: T, _ rhs:
 extension Person: Equatable {} 
 internal func == (lhs: Person, rhs: Person) -> Bool {
     guard lhs.name == rhs.name else { return false }
+    guard lhs.age == rhs.age else { return false }
     return true
 }
 

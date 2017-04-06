@@ -23,6 +23,12 @@ fileprivate func compareArrays<T>(lhs: [T], rhs: [T], compare: (_ lhs: T, _ rhs:
 }
 
 // MARK: - AutoEquatable for classes, protocols, structs
+// MARK: - Person AutoEquatable
+extension Person: Equatable {} 
+internal func == (lhs: Person, rhs: Person) -> Bool {
+    guard lhs.name == rhs.name else { return false }
+    return true
+}
 
 // MARK: - AutoEquatable for Enums
 

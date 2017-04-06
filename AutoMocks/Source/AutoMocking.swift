@@ -13,3 +13,5 @@ protocol AutoDiffable {}
 protocol AutoEquatable {}
 protocol AutoHashable {}
 protocol AutoMockable {}
+
+extension Person: AutoEquatable {}

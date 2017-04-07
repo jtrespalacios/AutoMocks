@@ -25,7 +25,6 @@
 		9DDF0A291E96BD5A007DF849 /* AutoEquatable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF0A241E96BD5A007DF849 /* AutoEquatable.generated.swift */; };
 		9DDF0A2A1E96BD5A007DF849 /* AutoHashable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF0A251E96BD5A007DF849 /* AutoHashable.generated.swift */; };
 		9DDF0A2B1E96BD5A007DF849 /* AutoMockable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF0A261E96BD5A007DF849 /* AutoMockable.generated.swift */; };
-		9DDF0A2D1E96BE9C007DF849 /* AutoMocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDF0A2C1E96BD75007DF849 /* AutoMocking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -270,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DDF0A281E96BD5A007DF849 /* AutoDiffable.generated.swift in Sources */,
-				9DDF0A2D1E96BE9C007DF849 /* AutoMocking.swift in Sources */,
 				9DDF0A1E1E96BCEE007DF849 /* Actors.swift in Sources */,
 				9DDF0A271E96BD5A007DF849 /* AutoCases.generated.swift in Sources */,
 				9DDF09EF1E96B95B007DF849 /* ViewController.swift in Sources */,
@@ -482,6 +480,7 @@
 				9DDF0A081E96B95B007DF849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DDF0A091E96B95B007DF849 /* Build configuration list for PBXNativeTarget "AutoMocksTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +489,7 @@
 				9DDF0A0B1E96B95B007DF849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
